@@ -1,0 +1,124 @@
+-#first-block
+  .wrapper
+    .title
+      Ручной пошив штор в Москве
+
+#second-block
+  .wrapper
+    .left
+      .offer
+        Оставьте заявку до
+        %span.light 28 сентября
+        и получите бесплатный пошив штор
+
+
+      .phone
+        .small или позвоните по номеру
+        8 800 2000 600
+
+    .right
+      .form-container
+        .top-form
+          %input#name-input{type: :text, name: 'username', placeholder: 'Введите ваше имя'}
+          %input{type: :text, name: 'phone', placeholder: 'Введите ваш номер телефона'}
+          .button.order-button
+            Оставить заявку
+
+
+
+
+#third-block
+  .wrapper
+    .subtitle
+      Как выглядят наши шторы?
+
+
+    .previews
+      .preview
+        %img{src: '/images/preview1.jpg'}
+
+      .preview
+        %img{src: '/images/curtains/previews/2.jpg'}
+      .preview
+        %img{src: '/images/curtains/previews/3.jpg'}
+      .preview
+        %img{src: '/images/curtains/previews/4.jpg'}
+      .preview
+        %img{src: '/images/curtains/previews/5.jpg'}
+      .preview
+        %img{src: '/images/curtains/previews/6.jpg'}
+      .preview
+        %img{src: '/images/curtains/previews/7.jpg'}
+      .preview
+        %img{src: '/images/curtains/previews/8.jpg'}
+
+
+
+#third-block
+  .wrapper
+    .subtitle
+      Почему уже более 750 клиентов заказали шторы у нас?
+
+
+
+
+
+#third-block
+  .wrapper
+    .blocks
+      .block
+        .icon.gift
+        .block-head
+          Бесплатный пошив
+        .block-content
+          Мы сошьем ваши шторы бесплатно, вам нужно оплатить только материал.
+        .button.get-price Заказать шторы
+
+      .block
+        .icon.clipboard
+        .block-head
+          Низкая цена
+        .block-content
+          Мы работаем напрямую с производителем, поэтому можем позволить себе акции и низкие цены.
+        .button.get-price Заказать шторы
+
+      .block.last
+        .icon.ok
+        .block-head
+          Качественный материал
+        .block-content
+          Мы шьем наши шторы из материалов высокого качества!
+        .button.get-price Заказать шторы
+
+
+#footer
+  Название компании : ООО "Пощив штор"
+  %br
+  Юридический Адрес : 115408 Борисовcкие пруды д.34 к.1
+  %br
+  ОГРН : 123123123123
+  %br
+  Инн/Кпп 848458454/2348238424
+  %br
+
+
+
+.modal-overlay
+.modal-thank-you
+  .header
+    Спасибо!
+  .body
+    Мы свяжемся с вами уже очень скоро.
+
+
+    %button#hide-thank-you
+      Я буду ждать!
+
+.modal-dialog
+  .header
+    Оставьте ваши контактные данные. Наш менеджер позвонит Вам.
+  .body
+    %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+    %button.order-button
+      Оставить заявку
